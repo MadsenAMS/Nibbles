@@ -3,7 +3,6 @@ A small 'nibbles' or 'snake' game project on JS for Digital Innovation One's Web
 
 ### Differences From the Original Project
 
-- Some variables were converted from *let* to *const* (canvas, context and box variables);
 - Broke the game tasks (snake, background, main) in different files for code cleaning purposes;
 - Used a switch instead of a chain of if's to control the snake + direction behavior.
 - Changed the depricated 'event' parameter to 'e'.
