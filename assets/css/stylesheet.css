@@ -5,6 +5,39 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    color: rgb(52, 165, 52);
+    background-color: rgb(13, 13, 70);
+    color: white;
+}
+
+canvas {
+    border-radius: 25px;
+    opacity: 0.8;
+}
+
+.ExtraInfo {
+    padding: 20px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: blue;
+    border-color: black;
+    opacity: 0.5;
+    width: 472px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.score {
+    font-size: 32px;
+}
+
+.Instructions {
+    padding: 20px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: blue;
+    border-color: black;
+    opacity: 0.7;
+    text-align: center;
+    font-size: 18px;
+    width: 472px;
 }

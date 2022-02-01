@@ -10,10 +10,30 @@
 </head>
 
 <body>
+    <div class="ExtraInfo">
+        <h1>
+            SPEED SNAKE ADVENTURE
+        </h1>
+    </div>
     <canvas id="nibbles" width="512" height="512">
 
     </canvas>
+    <div class='ExtraInfo'>
+        <span id="score" class='score'>Score: 0</span>
+        <span id="size" class='score'>Size: 1</span>
+        <span id="speed" class='score'>Speed: 1</span>
+    </div>
+    <div class='Instructions'>
+        <h3>INSTRUCTIONS</h3>
+        <p>Blue Food Gives Size</p>
+        <p>Red Food Gives Speed (Max 15).</p>
+        <p>SCORE: Adds size x speed (at the moment of feeding)</p>
+    </div>
 
+
+    <script src="/assets/js/background.js"></script>
+    <script src="/assets/js/food.js"></script>
+    <script src="/assets/js/snake.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
 
